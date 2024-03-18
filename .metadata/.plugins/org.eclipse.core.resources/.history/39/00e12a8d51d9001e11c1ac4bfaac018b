@@ -1,0 +1,21 @@
+package com.abhishekkargeti.demo;
+import java.lang.Math;
+class otp
+{
+	void opt(int length)
+	{
+		String  otp1 =" ";
+		for(int i=0; i <=length; i++ )
+		{
+			otp1 +=otp1.toString() ;
+		}
+	}
+}
+public class factorial {
+
+	public static void main(String[] args) {
+		otp o =new otp();
+		o.otp(4);
+	}
+
+}

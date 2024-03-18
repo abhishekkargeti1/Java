@@ -1,0 +1,9 @@
+class Example4
+{
+	public static vid main(String []args) throws IOExecption , ClassnotfoundException
+		{
+				System.out.println("A");
+				throw new IOException('Printer not found);
+		}
+
+}

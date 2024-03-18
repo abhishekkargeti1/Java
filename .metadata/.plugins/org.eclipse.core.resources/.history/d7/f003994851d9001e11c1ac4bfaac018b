@@ -1,0 +1,22 @@
+package com.abhishekkargeti.demo;
+import java.lang.Math;
+class otp
+{
+	static int opt(int length)
+	{
+		String  otp =" ";
+		for(int i=0; i < length; i++ )
+		{
+			otp +=Math.floor(Math.random()*10).toString() ;
+		}
+		return otp;
+	}
+}
+public class factorial {
+
+	public static void main(String[] args) {
+		otp o =new otp();
+		o.otp(4);
+	}
+
+}
